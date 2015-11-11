@@ -10,6 +10,7 @@ then
    echo "Configuration file $1 does not exist."
    exit 66
 fi
+django-admin.py syncdb -v 0
 export CLUTCH_CONF="$1"
 shift
 
