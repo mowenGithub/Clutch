@@ -1,7 +1,7 @@
 ###  Clutch.io  使用说明
-***
+=========
 #### Prerequisites (以Linux例)
-***
+=========
 - **Python 2.7 or Greater** (里面有用libimport模块,这个模块从Python2.7开始成为标准模块,当然也可在2.6上配置,但比较复杂)
 - **PostgreSQL && Psycopg2**
 - **libevent 2.0.20 + **
@@ -12,7 +12,7 @@
 > **注意:** 安装软件的时候最好到官网上去按照步骤安装,官网一般会给出不同派系系统的安装方法,一般Ubuntu用apt(有时需要兼容模式安装)和easy_install就能搞定,Centos一般用yum install 和rpm源码编译安装
 
 ###Installing and Running Clutch.io
-***
+=========
 
 Before you get started, make sure all of the prerequisites are installed and
 that PostgreSQL is running.  Now we need to create a Clutch user and database:
@@ -43,6 +43,6 @@ it in action.
 	local   all             all                                     trust
 	host    all             all             127.0.0.1/32            trust
 
-并到/etc/init.d/postgresql reload 使配置生效
+> 并到/etc/init.d/postgresql reload 使配置生效
 > - 要在clutch下面目录去运行而不是在bin里面,即./bin/clutch-all ./bin/conf.py,否则会因为路径出错 
 > - 其他的问题我也忘了,Google应该就没问题了
