@@ -9,6 +9,7 @@
 - **Django**(Web端使用的此框架)
 - **Gunicorn**(AB测试服务端主要使用此来并发处理请求)
 - **其他Python模块,例如Gevent,simplejson,pytz...**(这个可以先不安装,运行时发现没有某某模块的错误就去安装)
+
 > **注意:** 安装软件的时候最好到官网上去按照步骤安装,官网一般会给出不同派系系统的安装方法,一般Ubuntu用apt(有时需要兼容模式安装)和easy_install就能搞定,Centos一般用yum install 和rpm源码编译安装
 
 ###Installing and Running Clutch.io
